@@ -91,7 +91,6 @@ class AllNewsFragment : Fragment() {
                 }
                 adapter.notifyDataSetChanged()
                 swipeToRefresh.isRefreshing = false
-
             }
         })
     }

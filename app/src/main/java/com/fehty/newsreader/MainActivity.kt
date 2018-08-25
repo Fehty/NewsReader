@@ -1,9 +1,9 @@
 package com.fehty.newsreader
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.support.v4.view.GravityCompat
+import android.support.v7.app.AppCompatActivity
 import android.view.MenuItem
 import com.fehty.newsreader.DrawerLayout.*
 import kotlinx.android.synthetic.main.activity_main.*
@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
                     drawerLayout.closeDrawers()
                 }
                 R.id.secondData -> {
-                    setFragment(WallJournalFragment())
+                    setFragment(WallStreetJournalFragment())
                     drawerLayout.closeDrawers()
                 }
                 R.id.thirdData -> {
