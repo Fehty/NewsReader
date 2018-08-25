@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="template_item_margin_top">8dp</dimen>
+    <dimen name="template_item_margin_end">8dp</dimen>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/menu_search_option"
+        android:title="@string/menu_drawer_rubrics"
+        app:showAsAction="ifRoom|withText">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/firstData"
+                    android:icon="@drawable/ic_news"
+                    android:title="@string/menu_drawer_first_data" />
+                <item
+                    android:id="@+id/secondData"
+                    android:icon="@drawable/ic_news"
+                    android:title="@string/menu_drawer_second_data" />
+                <item
+                    android:id="@+id/thirdData"
+                    android:icon="@drawable/ic_news"
+                    android:title="@string/menu_drawer_third_data" />
+                <item
+                    android:id="@+id/fourthData"
+                    android:icon="@drawable/ic_news"
+                    android:title="@string/menu_drawer_fourth_data" />
+                <item
+                    android:id="@+id/fifthData"
+                    android:icon="@drawable/ic_news"
+                    android:title="@string/menu_drawer_fifth_data" />
+            </group>
+        </menu>
+    </item>
+</menu>
